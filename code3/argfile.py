@@ -1,6 +1,6 @@
 import sys
 
-name = sys.argv[1]
-handle = open(name, 'r')
-text = handle.read()
-print(name, 'is', len(text), 'bytes')
+nombre = sys.argv[1]
+manejar = open(nombre, 'r')
+texto = manejar.read()
+print(nombre, 'es de', len(texto), 'bytes')
